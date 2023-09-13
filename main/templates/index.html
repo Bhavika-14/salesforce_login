@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+<button id="login_button">Login with Salesforce</button>
+<script>
+    document.getElementById("login_button").addEventListener('click',function(){
+        window.location.href="{% url 'oauth' %}"
+    })
+</script>
+</body>
+</html>
